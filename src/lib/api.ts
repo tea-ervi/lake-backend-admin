@@ -7,7 +7,7 @@ import {
 } from '@/types';
 import { authStorage } from './auth';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://lakes-backend.onrender.com';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://lake-backend-2yts.onrender.com/';
 
 type RequestOptions = RequestInit & {
   token?: string;
